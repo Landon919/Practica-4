@@ -2,8 +2,8 @@
 
 Aplicación web que consume la API pública **Fake Store API** para mostrar un catálogo de productos, con búsqueda, filtro por categoría y paginación.
 
-- **URL de la aplicación:** https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/
-- **Repositorio:** https://github.com/TU-USUARIO/NOMBRE-DEL-REPO
+- **URL de la aplicación:** 
+- **Repositorio:** https://github.com/Landon919/Practica-4.git
 
 ## API utilizada
 
