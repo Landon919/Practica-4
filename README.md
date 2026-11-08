@@ -45,9 +45,5 @@ Para ejecutarla localmente, clona el repositorio y abre `index.html` con Live Se
 
 HTML5, CSS3, JavaScript ES6+, Fetch API, JSON, Git y GitHub.
 
-## Capturas
 
-| Vista general | Búsqueda | Estado de error |
-|---|---|---|
-| ![General](capturas/general.png) | ![Búsqueda](capturas/busqueda.png) | ![Error](capturas/error.png) |
 
