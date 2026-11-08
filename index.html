@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explorador de países</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Productos</h1>
+    <p>Datos en vivo desde Fake Store API</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input type="search" id="search" placeholder="Buscar producto por nombre..." aria-label="Buscar producto">
+      <select id="region" aria-label="Filtrar por categoría">
+        <option value="">Todas las categorías</option>
+        <option value="electronics">Electrónicos</option>
+        <option value="jewelery">Joyería</option>
+        <option value="men's clothing">Ropa de hombre</option>
+        <option value="women's clothing">Ropa de mujer</option>
+      </select>
+    </section>
+
+    <div id="status" role="status" aria-live="polite"></div>
+    <section id="results" class="grid"></section>
+
+    <nav class="pager" id="pager" hidden>
+      <button id="prev">← Anterior</button>
+      <span id="pageInfo"></span>
+      <button id="next">Siguiente →</button>
+    </nav>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
