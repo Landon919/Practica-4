@@ -45,5 +45,6 @@ Para ejecutarla localmente, clona el repositorio y abre `index.html` con Live Se
 
 HTML5, CSS3, JavaScript ES6+, Fetch API, JSON, Git y GitHub.
 
+## Reflexión técnica
 
-
+En este proyecto aprendí a consumir una API REST con fetch() y async/await, y a procesar la respuesta JSON para mostrarla con elementos creados dinámicamente en el DOM. Lo más importante fue manejar los distintos estados de la interfaz (carga, resultado vacío y error), porque una aplicación que depende de un servicio externo puede fallar en cualquier momento. Mi primera API no cargó correctamente, así que cambié a Fake Store API; eso me enseñó a depurar con la consola del navegador y a validar response.ok antes de usar los datos.
